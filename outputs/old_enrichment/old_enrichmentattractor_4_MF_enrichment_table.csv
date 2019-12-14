@@ -1,0 +1,10 @@
+"","ID","Description","GeneRatio","BgRatio","pvalue","p.adjust","qvalue","geneID","Count"
+"GO:0001103","GO:0001103","RNA polymerase II repressing transcription factor binding","1/2","35/20775",0.00336667710505989,0.0115415026906379,NA,"Gata6",1
+"GO:0004879","GO:0004879","nuclear receptor activity","1/2","40/20775",0.00384716756354597,0.0115415026906379,NA,"Nr6a1",1
+"GO:0098531","GO:0098531","transcription factor activity, direct ligand regulated sequence-specific DNA binding","1/2","40/20775",0.00384716756354597,0.0115415026906379,NA,"Nr6a1",1
+"GO:0003707","GO:0003707","steroid hormone receptor activity","1/2","55/20775",0.00528794381850783,0.0118978735916426,NA,"Nr6a1",1
+"GO:0070491","GO:0070491","repressing transcription factor binding","1/2","71/20775",0.00682362255791147,0.0122825206042406,NA,"Gata6",1
+"GO:0001158","GO:0001158","enhancer sequence-specific DNA binding","1/2","121/20775",0.0116149722930766,0.0162868043339576,NA,"Gata6",1
+"GO:0035326","GO:0035326","enhancer binding","1/2","132/20775",0.012667514481967,0.0162868043339576,NA,"Gata6",1
+"GO:0001085","GO:0001085","RNA polymerase II transcription factor binding","1/2","153/20775",0.0146753561362977,0.0165097756533349,NA,"Gata6",1
+"GO:0001228","GO:0001228","DNA-binding transcription activator activity, RNA polymerase II-specific","1/2","436/20775",0.0415340706939863,0.0415340706939863,NA,"Nr6a1",1

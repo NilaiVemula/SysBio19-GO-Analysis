@@ -1,0 +1,19 @@
+"","ID","Description","GeneRatio","BgRatio","pvalue","p.adjust","qvalue","geneID","Count"
+"GO:0035198","GO:0035198","miRNA binding","2/3","29/20775",5.63948753185345e-06,5.5087916271162e-05,NA,"Pou5f1/Sox2",2
+"GO:0061980","GO:0061980","regulatory RNA binding","2/3","36/20775",8.74896132245848e-06,5.5087916271162e-05,NA,"Pou5f1/Sox2",2
+"GO:0001228","GO:0001228","DNA-binding transcription activator activity, RNA polymerase II-specific","3/3","436/20775",9.181319378527e-06,5.5087916271162e-05,NA,"Pou5f1/Sox2/Nanog",3
+"GO:0031490","GO:0031490","chromatin DNA binding","2/3","96/20775",6.32037433865676e-05,0.000284416845239554,NA,"Pou5f1/Sox2",2
+"GO:0001158","GO:0001158","enhancer sequence-specific DNA binding","2/3","121/20775",0.000100546032782805,0.000359096253376886,NA,"Pou5f1/Nanog",2
+"GO:0035326","GO:0035326","enhancer binding","2/3","132/20775",0.000119698751125629,0.000359096253376886,NA,"Pou5f1/Nanog",2
+"GO:0003714","GO:0003714","transcription corepressor activity","2/3","190/20775",0.000248111708552726,0.000638001536278439,NA,"Pou5f1/Nanog",2
+"GO:0003712","GO:0003712","transcription coregulator activity","2/3","457/20775",0.00142742298987217,0.00317536626261816,NA,"Pou5f1/Nanog",2
+"GO:0001162","GO:0001162","RNA polymerase II intronic transcription regulatory region sequence-specific DNA binding","1/3","11/20775",0.00158768313130908,0.00317536626261816,NA,"Pou5f1",1
+"GO:0001161","GO:0001161","intronic transcription regulatory region sequence-specific DNA binding","1/3","14/20775",0.00202039577412261,0.0035420817819524,NA,"Pou5f1",1
+"GO:0044213","GO:0044213","intronic transcription regulatory region DNA binding","1/3","15/20775",0.00216460553341535,0.0035420817819524,NA,"Pou5f1",1
+"GO:0071837","GO:0071837","HMG box domain binding","1/3","25/20775",0.00360593911954854,0.00540890867932281,NA,"Pou5f1",1
+"GO:0019955","GO:0019955","cytokine binding","1/3","131/20775",0.018798833532264,0.0260291541215963,NA,"Pou5f1",1
+"GO:0001085","GO:0001085","RNA polymerase II transcription factor binding","1/3","153/20775",0.0219325972912173,0.0281990536601366,NA,"Nanog",1
+"GO:0001227","GO:0001227","DNA-binding transcription repressor activity, RNA polymerase II-specific","1/3","237/20775",0.0338364980324977,0.0406037976389972,NA,"Pou5f1",1
+"GO:0003713","GO:0003713","transcription coactivator activity","1/3","260/20775",0.0370789701156355,0.04171384138009,NA,"Pou5f1",1
+"GO:0031625","GO:0031625","ubiquitin protein ligase binding","1/3","307/20775",0.0436823158109634,0.0462518637998436,NA,"Pou5f1",1
+"GO:0044389","GO:0044389","ubiquitin-like protein ligase binding","1/3","327/20775",0.0464830687095568,0.0464830687095568,NA,"Pou5f1",1

@@ -1,0 +1,7 @@
+PvalueCutoff:  0.05 
+ pAdjustMethod:  BH 
+ qvalueCutoff:  0.05 
+ Organism:  Mus musculus 
+ Ontology: GO BP 
+ Gene:  ENSMUSG00000027478 ENSMUSG00000038793 ENSMUSG00000028023 
+ Gene2symbol:  Dnmt3b Lefty1 Pitx2 

@@ -1,0 +1,56 @@
+---
+title: "R Notebook"
+output: html_notebook
+---
+
+```{r setup}
+library(BoolNet)
+
+```
+
+```{r}
+network <- loadNetwork("../data/big_network.csv")
+```
+
+```{r}
+network
+```
+
+```{r}
+att <- getAttractors(network, type="synchronous", returnTable=TRUE)
+```
+
+```{r}
+att
+```
+
+```{r}
+x <- plotNetworkWiring(network)
+
+library(igraph)
+createNetworkFromIgraph(x,"myIgraph")
+
+```
+
+```{r}
+plot.igraph(x)
+```
+
+
+
+```{r}
+plotAttractors(att)
+```
+
+```{r}
+plotStateGraph(att)
+```
+
+```{r}
+toSBML(network, file = "outputs/network.sbml")
+```
+
+```{r}
+attractorsToLaTeX(att, file = "test.tex")
+```
+

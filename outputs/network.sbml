@@ -1,0 +1,1910 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sbml xmlns="http://www.sbml.org/sbml/level3/version1/core" level="3" version="1" xmlns:qual="http://www.sbml.org/sbml/level3/version1/qual/version1" qual:required="true">
+	<model id="network">
+		<listOfCompartments>
+			<compartment id="default" constant="true"/>
+		</listOfCompartments>
+		<qual:listOfQualitativeSpecies>
+			<qual:qualitativeSpecies qual:compartment="default" qual:constant="false" qual:id="ActivinA" qual:name="ActivinA" qual:maxLevel="1"/>
+			<qual:qualitativeSpecies qual:compartment="default" qual:constant="false" qual:id="Bmp4" qual:name="Bmp4" qual:maxLevel="1"/>
+			<qual:qualitativeSpecies qual:compartment="default" qual:constant="false" qual:id="Dnmt3b" qual:name="Dnmt3b" qual:maxLevel="1"/>
+			<qual:qualitativeSpecies qual:compartment="default" qual:constant="false" qual:id="EpiTFs" qual:name="EpiTFs" qual:maxLevel="1"/>
+			<qual:qualitativeSpecies qual:compartment="default" qual:constant="false" qual:id="Esrrb" qual:name="Esrrb" qual:maxLevel="1"/>
+			<qual:qualitativeSpecies qual:compartment="default" qual:constant="false" qual:id="Fgfr2" qual:name="Fgfr2" qual:maxLevel="1"/>
+			<qual:qualitativeSpecies qual:compartment="default" qual:constant="false" qual:id="Gata6" qual:name="Gata6" qual:maxLevel="1"/>
+			<qual:qualitativeSpecies qual:compartment="default" qual:constant="false" qual:id="Gbx2" qual:name="Gbx2" qual:maxLevel="1"/>
+			<qual:qualitativeSpecies qual:compartment="default" qual:constant="false" qual:id="Gcnf" qual:name="Gcnf" qual:maxLevel="1"/>
+			<qual:qualitativeSpecies qual:compartment="default" qual:constant="false" qual:id="Jarid2" qual:name="Jarid2" qual:maxLevel="1"/>
+			<qual:qualitativeSpecies qual:compartment="default" qual:constant="false" qual:id="Klf4" qual:name="Klf4" qual:maxLevel="1"/>
+			<qual:qualitativeSpecies qual:compartment="default" qual:constant="false" qual:id="Nanog" qual:name="Nanog" qual:maxLevel="1"/>
+			<qual:qualitativeSpecies qual:compartment="default" qual:constant="false" qual:id="Oct4" qual:name="Oct4" qual:maxLevel="1"/>
+			<qual:qualitativeSpecies qual:compartment="default" qual:constant="false" qual:id="Smad6" qual:name="Smad6" qual:maxLevel="1"/>
+			<qual:qualitativeSpecies qual:compartment="default" qual:constant="false" qual:id="Smad7" qual:name="Smad7" qual:maxLevel="1"/>
+			<qual:qualitativeSpecies qual:compartment="default" qual:constant="false" qual:id="Sox2" qual:name="Sox2" qual:maxLevel="1"/>
+			<qual:qualitativeSpecies qual:compartment="default" qual:constant="false" qual:id="Tcf3" qual:name="Tcf3" qual:maxLevel="1"/>
+			<qual:qualitativeSpecies qual:compartment="default" qual:constant="false" qual:id="Cdx2" qual:name="Cdx2" qual:maxLevel="1"/>
+			<qual:qualitativeSpecies qual:compartment="default" qual:constant="false" qual:id="Dusp6" qual:name="Dusp6" qual:maxLevel="1"/>
+			<qual:qualitativeSpecies qual:compartment="default" qual:constant="false" qual:id="Fgf4" qual:name="Fgf4" qual:maxLevel="1"/>
+			<qual:qualitativeSpecies qual:compartment="default" qual:constant="false" qual:id="Klf2" qual:name="Klf2" qual:maxLevel="1"/>
+			<qual:qualitativeSpecies qual:compartment="default" qual:constant="false" qual:id="Lefty1" qual:name="Lefty1" qual:maxLevel="1"/>
+			<qual:qualitativeSpecies qual:compartment="default" qual:constant="false" qual:id="Lrh1" qual:name="Lrh1" qual:maxLevel="1"/>
+			<qual:qualitativeSpecies qual:compartment="default" qual:constant="false" qual:id="Mycn" qual:name="Mycn" qual:maxLevel="1"/>
+			<qual:qualitativeSpecies qual:compartment="default" qual:constant="false" qual:id="Pitx2" qual:name="Pitx2" qual:maxLevel="1"/>
+			<qual:qualitativeSpecies qual:compartment="default" qual:constant="false" qual:id="Tbx3" qual:name="Tbx3" qual:maxLevel="1"/>
+			<qual:qualitativeSpecies qual:compartment="default" qual:constant="false" qual:id="Myc" qual:name="Myc" qual:maxLevel="1"/>
+			<qual:qualitativeSpecies qual:compartment="default" qual:constant="false" qual:id="Pecam1" qual:name="Pecam1" qual:maxLevel="1"/>
+			<qual:qualitativeSpecies qual:compartment="default" qual:constant="false" qual:id="Rex1" qual:name="Rex1" qual:maxLevel="1"/>
+			<qual:qualitativeSpecies qual:compartment="default" qual:constant="false" qual:id="iGSK3b" qual:name="iGSK3b" qual:maxLevel="1"/>
+			<qual:qualitativeSpecies qual:compartment="default" qual:constant="false" qual:id="LIF" qual:name="LIF" qual:maxLevel="1"/>
+			<qual:qualitativeSpecies qual:compartment="default" qual:constant="false" qual:id="bFGF" qual:name="bFGF" qual:maxLevel="1"/>
+			<qual:qualitativeSpecies qual:compartment="default" qual:constant="false" qual:id="SignalLIF" qual:name="SignalLIF" qual:maxLevel="1"/>
+			<qual:qualitativeSpecies qual:compartment="default" qual:constant="false" qual:id="SignalWNT" qual:name="SignalWNT" qual:maxLevel="1"/>
+			<qual:qualitativeSpecies qual:compartment="default" qual:constant="false" qual:id="SignalBMP" qual:name="SignalBMP" qual:maxLevel="1"/>
+			<qual:qualitativeSpecies qual:compartment="default" qual:constant="false" qual:id="SignalFGF" qual:name="SignalFGF" qual:maxLevel="1"/>
+			<qual:qualitativeSpecies qual:compartment="default" qual:constant="false" qual:id="SignalERK" qual:name="SignalERK" qual:maxLevel="1"/>
+			<qual:qualitativeSpecies qual:compartment="default" qual:constant="false" qual:id="SignalACT" qual:name="SignalACT" qual:maxLevel="1"/>
+			<qual:qualitativeSpecies qual:compartment="default" qual:constant="false" qual:id="SignalPI3K" qual:name="SignalPI3K" qual:maxLevel="1"/>
+		</qual:listOfQualitativeSpecies>
+		<qual:listOfTransitions>
+			<qual:transition qual:id="tr_ActivinA" qual:name="Interactions targeting ActivinA">
+				<qual:listOfInputs>
+					<qual:input qual:qualitativeSpecies="Gbx2" qual:transitionEffect="none"/>
+					<qual:input qual:qualitativeSpecies="Oct4" qual:transitionEffect="none"/>
+					<qual:input qual:qualitativeSpecies="Sox2" qual:transitionEffect="none"/>
+					<qual:input qual:qualitativeSpecies="Lefty1" qual:transitionEffect="none"/>
+					<qual:input qual:qualitativeSpecies="SignalACT" qual:transitionEffect="none"/>
+				</qual:listOfInputs>
+				<qual:listOfOutputs>
+					<qual:output qual:qualitativeSpecies="ActivinA" qual:transitionEffect="assignmentLevel"/>
+				</qual:listOfOutputs>
+				<qual:listOfFunctionTerms>
+					<qual:functionTerm qual:resultLevel="1">
+						<math xmlns="http://www.w3.org/1998/Math/MathML">
+							<apply>
+								<and/>
+								<apply>
+									<or/>
+									<apply>
+										<eq/>
+										<ci>SignalACT</ci>
+										<cn type="integer">1</cn>
+									</apply>
+									<apply>
+										<eq/>
+										<ci>Oct4</ci>
+										<cn type="integer">1</cn>
+									</apply>
+								</apply>
+								<apply>
+									<eq/>
+									<ci>Sox2</ci>
+									<cn type="integer">0</cn>
+								</apply>
+								<apply>
+									<eq/>
+									<ci>Lefty1</ci>
+									<cn type="integer">0</cn>
+								</apply>
+								<apply>
+									<eq/>
+									<ci>Gbx2</ci>
+									<cn type="integer">0</cn>
+								</apply>
+							</apply>
+						</math>
+					</qual:functionTerm>
+					<qual:defaultTerm qual:resultLevel="0"/>
+				</qual:listOfFunctionTerms>
+			</qual:transition>
+			<qual:transition qual:id="tr_Bmp4" qual:name="Interactions targeting Bmp4">
+				<qual:listOfInputs>
+					<qual:input qual:qualitativeSpecies="Gbx2" qual:transitionEffect="none"/>
+					<qual:input qual:qualitativeSpecies="Tbx3" qual:transitionEffect="none"/>
+					<qual:input qual:qualitativeSpecies="Myc" qual:transitionEffect="none"/>
+					<qual:input qual:qualitativeSpecies="SignalBMP" qual:transitionEffect="none"/>
+				</qual:listOfInputs>
+				<qual:listOfOutputs>
+					<qual:output qual:qualitativeSpecies="Bmp4" qual:transitionEffect="assignmentLevel"/>
+				</qual:listOfOutputs>
+				<qual:listOfFunctionTerms>
+					<qual:functionTerm qual:resultLevel="1">
+						<math xmlns="http://www.w3.org/1998/Math/MathML">
+							<apply>
+								<or/>
+								<apply>
+									<eq/>
+									<ci>SignalBMP</ci>
+									<cn type="integer">1</cn>
+								</apply>
+								<apply>
+									<eq/>
+									<ci>Gbx2</ci>
+									<cn type="integer">1</cn>
+								</apply>
+								<apply>
+									<eq/>
+									<ci>Tbx3</ci>
+									<cn type="integer">1</cn>
+								</apply>
+								<apply>
+									<eq/>
+									<ci>Myc</ci>
+									<cn type="integer">1</cn>
+								</apply>
+							</apply>
+						</math>
+					</qual:functionTerm>
+					<qual:defaultTerm qual:resultLevel="0"/>
+				</qual:listOfFunctionTerms>
+			</qual:transition>
+			<qual:transition qual:id="tr_Dnmt3b" qual:name="Interactions targeting Dnmt3b">
+				<qual:listOfInputs>
+					<qual:input qual:qualitativeSpecies="EpiTFs" qual:transitionEffect="none"/>
+					<qual:input qual:qualitativeSpecies="Klf4" qual:transitionEffect="none"/>
+					<qual:input qual:qualitativeSpecies="Tcf3" qual:transitionEffect="none"/>
+					<qual:input qual:qualitativeSpecies="Cdx2" qual:transitionEffect="none"/>
+					<qual:input qual:qualitativeSpecies="Mycn" qual:transitionEffect="none"/>
+				</qual:listOfInputs>
+				<qual:listOfOutputs>
+					<qual:output qual:qualitativeSpecies="Dnmt3b" qual:transitionEffect="assignmentLevel"/>
+				</qual:listOfOutputs>
+				<qual:listOfFunctionTerms>
+					<qual:functionTerm qual:resultLevel="1">
+						<math xmlns="http://www.w3.org/1998/Math/MathML">
+							<apply>
+								<and/>
+								<apply>
+									<or/>
+									<apply>
+										<eq/>
+										<ci>Mycn</ci>
+										<cn type="integer">1</cn>
+									</apply>
+									<apply>
+										<eq/>
+										<ci>Tcf3</ci>
+										<cn type="integer">1</cn>
+									</apply>
+									<apply>
+										<eq/>
+										<ci>EpiTFs</ci>
+										<cn type="integer">1</cn>
+									</apply>
+								</apply>
+								<apply>
+									<not/>
+									<apply>
+										<or/>
+										<apply>
+											<eq/>
+											<ci>Cdx2</ci>
+											<cn type="integer">1</cn>
+										</apply>
+										<apply>
+											<eq/>
+											<ci>Klf4</ci>
+											<cn type="integer">1</cn>
+										</apply>
+									</apply>
+								</apply>
+							</apply>
+						</math>
+					</qual:functionTerm>
+					<qual:defaultTerm qual:resultLevel="0"/>
+				</qual:listOfFunctionTerms>
+			</qual:transition>
+			<qual:transition qual:id="tr_EpiTFs" qual:name="Interactions targeting EpiTFs">
+				<qual:listOfInputs>
+					<qual:input qual:qualitativeSpecies="Klf4" qual:transitionEffect="none"/>
+					<qual:input qual:qualitativeSpecies="Sox2" qual:transitionEffect="none"/>
+					<qual:input qual:qualitativeSpecies="Cdx2" qual:transitionEffect="none"/>
+					<qual:input qual:qualitativeSpecies="Dusp6" qual:transitionEffect="none"/>
+					<qual:input qual:qualitativeSpecies="Pitx2" qual:transitionEffect="none"/>
+					<qual:input qual:qualitativeSpecies="SignalBMP" qual:transitionEffect="none"/>
+				</qual:listOfInputs>
+				<qual:listOfOutputs>
+					<qual:output qual:qualitativeSpecies="EpiTFs" qual:transitionEffect="assignmentLevel"/>
+				</qual:listOfOutputs>
+				<qual:listOfFunctionTerms>
+					<qual:functionTerm qual:resultLevel="1">
+						<math xmlns="http://www.w3.org/1998/Math/MathML">
+							<apply>
+								<and/>
+								<apply>
+									<or/>
+									<apply>
+										<eq/>
+										<ci>SignalBMP</ci>
+										<cn type="integer">1</cn>
+									</apply>
+									<apply>
+										<eq/>
+										<ci>Pitx2</ci>
+										<cn type="integer">1</cn>
+									</apply>
+									<apply>
+										<eq/>
+										<ci>Dusp6</ci>
+										<cn type="integer">1</cn>
+									</apply>
+								</apply>
+								<apply>
+									<eq/>
+									<ci>Cdx2</ci>
+									<cn type="integer">0</cn>
+								</apply>
+								<apply>
+									<not/>
+									<apply>
+										<and/>
+										<apply>
+											<eq/>
+											<ci>Klf4</ci>
+											<cn type="integer">1</cn>
+										</apply>
+										<apply>
+											<eq/>
+											<ci>Sox2</ci>
+											<cn type="integer">1</cn>
+										</apply>
+									</apply>
+								</apply>
+							</apply>
+						</math>
+					</qual:functionTerm>
+					<qual:defaultTerm qual:resultLevel="0"/>
+				</qual:listOfFunctionTerms>
+			</qual:transition>
+			<qual:transition qual:id="tr_Esrrb" qual:name="Interactions targeting Esrrb">
+				<qual:listOfInputs>
+					<qual:input qual:qualitativeSpecies="EpiTFs" qual:transitionEffect="none"/>
+					<qual:input qual:qualitativeSpecies="Klf4" qual:transitionEffect="none"/>
+					<qual:input qual:qualitativeSpecies="Nanog" qual:transitionEffect="none"/>
+					<qual:input qual:qualitativeSpecies="Tcf3" qual:transitionEffect="none"/>
+					<qual:input qual:qualitativeSpecies="Klf2" qual:transitionEffect="none"/>
+					<qual:input qual:qualitativeSpecies="SignalWNT" qual:transitionEffect="none"/>
+				</qual:listOfInputs>
+				<qual:listOfOutputs>
+					<qual:output qual:qualitativeSpecies="Esrrb" qual:transitionEffect="assignmentLevel"/>
+				</qual:listOfOutputs>
+				<qual:listOfFunctionTerms>
+					<qual:functionTerm qual:resultLevel="1">
+						<math xmlns="http://www.w3.org/1998/Math/MathML">
+							<apply>
+								<and/>
+								<apply>
+									<or/>
+									<apply>
+										<eq/>
+										<ci>Klf4</ci>
+										<cn type="integer">1</cn>
+									</apply>
+									<apply>
+										<eq/>
+										<ci>Klf2</ci>
+										<cn type="integer">1</cn>
+									</apply>
+									<apply>
+										<eq/>
+										<ci>Nanog</ci>
+										<cn type="integer">1</cn>
+									</apply>
+									<apply>
+										<and/>
+										<apply>
+											<eq/>
+											<ci>SignalWNT</ci>
+											<cn type="integer">1</cn>
+										</apply>
+										<apply>
+											<eq/>
+											<ci>Tcf3</ci>
+											<cn type="integer">0</cn>
+										</apply>
+									</apply>
+								</apply>
+								<apply>
+									<eq/>
+									<ci>EpiTFs</ci>
+									<cn type="integer">0</cn>
+								</apply>
+							</apply>
+						</math>
+					</qual:functionTerm>
+					<qual:defaultTerm qual:resultLevel="0"/>
+				</qual:listOfFunctionTerms>
+			</qual:transition>
+			<qual:transition qual:id="tr_Fgfr2" qual:name="Interactions targeting Fgfr2">
+				<qual:listOfInputs>
+					<qual:input qual:qualitativeSpecies="Gcnf" qual:transitionEffect="none"/>
+					<qual:input qual:qualitativeSpecies="Nanog" qual:transitionEffect="none"/>
+					<qual:input qual:qualitativeSpecies="Oct4" qual:transitionEffect="none"/>
+					<qual:input qual:qualitativeSpecies="Cdx2" qual:transitionEffect="none"/>
+					<qual:input qual:qualitativeSpecies="SignalFGF" qual:transitionEffect="none"/>
+				</qual:listOfInputs>
+				<qual:listOfOutputs>
+					<qual:output qual:qualitativeSpecies="Fgfr2" qual:transitionEffect="assignmentLevel"/>
+				</qual:listOfOutputs>
+				<qual:listOfFunctionTerms>
+					<qual:functionTerm qual:resultLevel="1">
+						<math xmlns="http://www.w3.org/1998/Math/MathML">
+							<apply>
+								<and/>
+								<apply>
+									<or/>
+									<apply>
+										<eq/>
+										<ci>SignalFGF</ci>
+										<cn type="integer">1</cn>
+									</apply>
+									<apply>
+										<eq/>
+										<ci>Gcnf</ci>
+										<cn type="integer">1</cn>
+									</apply>
+									<apply>
+										<eq/>
+										<ci>Cdx2</ci>
+										<cn type="integer">1</cn>
+									</apply>
+								</apply>
+								<apply>
+									<eq/>
+									<ci>Nanog</ci>
+									<cn type="integer">0</cn>
+								</apply>
+								<apply>
+									<eq/>
+									<ci>Oct4</ci>
+									<cn type="integer">0</cn>
+								</apply>
+							</apply>
+						</math>
+					</qual:functionTerm>
+					<qual:defaultTerm qual:resultLevel="0"/>
+				</qual:listOfFunctionTerms>
+			</qual:transition>
+			<qual:transition qual:id="tr_Gata6" qual:name="Interactions targeting Gata6">
+				<qual:listOfInputs>
+					<qual:input qual:qualitativeSpecies="Gata6" qual:transitionEffect="none"/>
+					<qual:input qual:qualitativeSpecies="Nanog" qual:transitionEffect="none"/>
+					<qual:input qual:qualitativeSpecies="Fgf4" qual:transitionEffect="none"/>
+					<qual:input qual:qualitativeSpecies="Klf2" qual:transitionEffect="none"/>
+					<qual:input qual:qualitativeSpecies="SignalERK" qual:transitionEffect="none"/>
+				</qual:listOfInputs>
+				<qual:listOfOutputs>
+					<qual:output qual:qualitativeSpecies="Gata6" qual:transitionEffect="assignmentLevel"/>
+				</qual:listOfOutputs>
+				<qual:listOfFunctionTerms>
+					<qual:functionTerm qual:resultLevel="1">
+						<math xmlns="http://www.w3.org/1998/Math/MathML">
+							<apply>
+								<and/>
+								<apply>
+									<or/>
+									<apply>
+										<eq/>
+										<ci>Gata6</ci>
+										<cn type="integer">1</cn>
+									</apply>
+									<apply>
+										<eq/>
+										<ci>SignalERK</ci>
+										<cn type="integer">1</cn>
+									</apply>
+								</apply>
+								<apply>
+									<eq/>
+									<ci>Klf2</ci>
+									<cn type="integer">0</cn>
+								</apply>
+								<apply>
+									<eq/>
+									<ci>Nanog</ci>
+									<cn type="integer">0</cn>
+								</apply>
+								<apply>
+									<eq/>
+									<ci>Fgf4</ci>
+									<cn type="integer">0</cn>
+								</apply>
+							</apply>
+						</math>
+					</qual:functionTerm>
+					<qual:defaultTerm qual:resultLevel="0"/>
+				</qual:listOfFunctionTerms>
+			</qual:transition>
+			<qual:transition qual:id="tr_Gbx2" qual:name="Interactions targeting Gbx2">
+				<qual:listOfInputs>
+					<qual:input qual:qualitativeSpecies="Esrrb" qual:transitionEffect="none"/>
+					<qual:input qual:qualitativeSpecies="Jarid2" qual:transitionEffect="none"/>
+					<qual:input qual:qualitativeSpecies="Tcf3" qual:transitionEffect="none"/>
+					<qual:input qual:qualitativeSpecies="Tbx3" qual:transitionEffect="none"/>
+					<qual:input qual:qualitativeSpecies="SignalLIF" qual:transitionEffect="none"/>
+					<qual:input qual:qualitativeSpecies="SignalWNT" qual:transitionEffect="none"/>
+				</qual:listOfInputs>
+				<qual:listOfOutputs>
+					<qual:output qual:qualitativeSpecies="Gbx2" qual:transitionEffect="assignmentLevel"/>
+				</qual:listOfOutputs>
+				<qual:listOfFunctionTerms>
+					<qual:functionTerm qual:resultLevel="1">
+						<math xmlns="http://www.w3.org/1998/Math/MathML">
+							<apply>
+								<and/>
+								<apply>
+									<or/>
+									<apply>
+										<and/>
+										<apply>
+											<eq/>
+											<ci>SignalWNT</ci>
+											<cn type="integer">1</cn>
+										</apply>
+										<apply>
+											<eq/>
+											<ci>Tcf3</ci>
+											<cn type="integer">0</cn>
+										</apply>
+									</apply>
+									<apply>
+										<eq/>
+										<ci>SignalLIF</ci>
+										<cn type="integer">1</cn>
+									</apply>
+								</apply>
+								<apply>
+									<and/>
+									<apply>
+										<or/>
+										<apply>
+											<eq/>
+											<ci>Esrrb</ci>
+											<cn type="integer">1</cn>
+										</apply>
+										<apply>
+											<eq/>
+											<ci>Jarid2</ci>
+											<cn type="integer">1</cn>
+										</apply>
+									</apply>
+									<apply>
+										<eq/>
+										<ci>Tbx3</ci>
+										<cn type="integer">0</cn>
+									</apply>
+								</apply>
+							</apply>
+						</math>
+					</qual:functionTerm>
+					<qual:defaultTerm qual:resultLevel="0"/>
+				</qual:listOfFunctionTerms>
+			</qual:transition>
+			<qual:transition qual:id="tr_Gcnf" qual:name="Interactions targeting Gcnf">
+				<qual:listOfInputs>
+					<qual:input qual:qualitativeSpecies="EpiTFs" qual:transitionEffect="none"/>
+					<qual:input qual:qualitativeSpecies="Gata6" qual:transitionEffect="none"/>
+					<qual:input qual:qualitativeSpecies="Cdx2" qual:transitionEffect="none"/>
+				</qual:listOfInputs>
+				<qual:listOfOutputs>
+					<qual:output qual:qualitativeSpecies="Gcnf" qual:transitionEffect="assignmentLevel"/>
+				</qual:listOfOutputs>
+				<qual:listOfFunctionTerms>
+					<qual:functionTerm qual:resultLevel="1">
+						<math xmlns="http://www.w3.org/1998/Math/MathML">
+							<apply>
+								<and/>
+								<apply>
+									<or/>
+									<apply>
+										<eq/>
+										<ci>Gata6</ci>
+										<cn type="integer">1</cn>
+									</apply>
+									<apply>
+										<eq/>
+										<ci>Cdx2</ci>
+										<cn type="integer">1</cn>
+									</apply>
+								</apply>
+								<apply>
+									<eq/>
+									<ci>EpiTFs</ci>
+									<cn type="integer">0</cn>
+								</apply>
+							</apply>
+						</math>
+					</qual:functionTerm>
+					<qual:defaultTerm qual:resultLevel="0"/>
+				</qual:listOfFunctionTerms>
+			</qual:transition>
+			<qual:transition qual:id="tr_Jarid2" qual:name="Interactions targeting Jarid2">
+				<qual:listOfInputs>
+					<qual:input qual:qualitativeSpecies="Klf4" qual:transitionEffect="none"/>
+					<qual:input qual:qualitativeSpecies="Oct4" qual:transitionEffect="none"/>
+				</qual:listOfInputs>
+				<qual:listOfOutputs>
+					<qual:output qual:qualitativeSpecies="Jarid2" qual:transitionEffect="assignmentLevel"/>
+				</qual:listOfOutputs>
+				<qual:listOfFunctionTerms>
+					<qual:functionTerm qual:resultLevel="1">
+						<math xmlns="http://www.w3.org/1998/Math/MathML">
+							<apply>
+								<or/>
+								<apply>
+									<eq/>
+									<ci>Klf4</ci>
+									<cn type="integer">1</cn>
+								</apply>
+								<apply>
+									<eq/>
+									<ci>Oct4</ci>
+									<cn type="integer">1</cn>
+								</apply>
+							</apply>
+						</math>
+					</qual:functionTerm>
+					<qual:defaultTerm qual:resultLevel="0"/>
+				</qual:listOfFunctionTerms>
+			</qual:transition>
+			<qual:transition qual:id="tr_Klf4" qual:name="Interactions targeting Klf4">
+				<qual:listOfInputs>
+					<qual:input qual:qualitativeSpecies="EpiTFs" qual:transitionEffect="none"/>
+					<qual:input qual:qualitativeSpecies="Esrrb" qual:transitionEffect="none"/>
+					<qual:input qual:qualitativeSpecies="Klf4" qual:transitionEffect="none"/>
+					<qual:input qual:qualitativeSpecies="Nanog" qual:transitionEffect="none"/>
+					<qual:input qual:qualitativeSpecies="Oct4" qual:transitionEffect="none"/>
+					<qual:input qual:qualitativeSpecies="Sox2" qual:transitionEffect="none"/>
+					<qual:input qual:qualitativeSpecies="Klf2" qual:transitionEffect="none"/>
+					<qual:input qual:qualitativeSpecies="SignalLIF" qual:transitionEffect="none"/>
+				</qual:listOfInputs>
+				<qual:listOfOutputs>
+					<qual:output qual:qualitativeSpecies="Klf4" qual:transitionEffect="assignmentLevel"/>
+				</qual:listOfOutputs>
+				<qual:listOfFunctionTerms>
+					<qual:functionTerm qual:resultLevel="1">
+						<math xmlns="http://www.w3.org/1998/Math/MathML">
+							<apply>
+								<and/>
+								<apply>
+									<or/>
+									<apply>
+										<eq/>
+										<ci>SignalLIF</ci>
+										<cn type="integer">1</cn>
+									</apply>
+									<apply>
+										<and/>
+										<apply>
+											<or/>
+											<apply>
+												<eq/>
+												<ci>Klf2</ci>
+												<cn type="integer">1</cn>
+											</apply>
+											<apply>
+												<eq/>
+												<ci>Klf4</ci>
+												<cn type="integer">1</cn>
+											</apply>
+										</apply>
+										<apply>
+											<eq/>
+											<ci>Nanog</ci>
+											<cn type="integer">1</cn>
+										</apply>
+										<apply>
+											<eq/>
+											<ci>Esrrb</ci>
+											<cn type="integer">1</cn>
+										</apply>
+										<apply>
+											<and/>
+											<apply>
+												<eq/>
+												<ci>Oct4</ci>
+												<cn type="integer">1</cn>
+											</apply>
+											<apply>
+												<eq/>
+												<ci>Sox2</ci>
+												<cn type="integer">1</cn>
+											</apply>
+										</apply>
+									</apply>
+								</apply>
+								<apply>
+									<eq/>
+									<ci>EpiTFs</ci>
+									<cn type="integer">0</cn>
+								</apply>
+							</apply>
+						</math>
+					</qual:functionTerm>
+					<qual:defaultTerm qual:resultLevel="0"/>
+				</qual:listOfFunctionTerms>
+			</qual:transition>
+			<qual:transition qual:id="tr_Nanog" qual:name="Interactions targeting Nanog">
+				<qual:listOfInputs>
+					<qual:input qual:qualitativeSpecies="Gata6" qual:transitionEffect="none"/>
+					<qual:input qual:qualitativeSpecies="Klf4" qual:transitionEffect="none"/>
+					<qual:input qual:qualitativeSpecies="Nanog" qual:transitionEffect="none"/>
+					<qual:input qual:qualitativeSpecies="Oct4" qual:transitionEffect="none"/>
+					<qual:input qual:qualitativeSpecies="Sox2" qual:transitionEffect="none"/>
+					<qual:input qual:qualitativeSpecies="Tcf3" qual:transitionEffect="none"/>
+					<qual:input qual:qualitativeSpecies="Lrh1" qual:transitionEffect="none"/>
+					<qual:input qual:qualitativeSpecies="Tbx3" qual:transitionEffect="none"/>
+					<qual:input qual:qualitativeSpecies="SignalACT" qual:transitionEffect="none"/>
+				</qual:listOfInputs>
+				<qual:listOfOutputs>
+					<qual:output qual:qualitativeSpecies="Nanog" qual:transitionEffect="assignmentLevel"/>
+				</qual:listOfOutputs>
+				<qual:listOfFunctionTerms>
+					<qual:functionTerm qual:resultLevel="1">
+						<math xmlns="http://www.w3.org/1998/Math/MathML">
+							<apply>
+								<and/>
+								<apply>
+									<or/>
+									<apply>
+										<eq/>
+										<ci>Nanog</ci>
+										<cn type="integer">1</cn>
+									</apply>
+									<apply>
+										<eq/>
+										<ci>SignalACT</ci>
+										<cn type="integer">1</cn>
+									</apply>
+									<apply>
+										<and/>
+										<apply>
+											<eq/>
+											<ci>Oct4</ci>
+											<cn type="integer">1</cn>
+										</apply>
+										<apply>
+											<eq/>
+											<ci>Sox2</ci>
+											<cn type="integer">1</cn>
+										</apply>
+									</apply>
+									<apply>
+										<eq/>
+										<ci>Tbx3</ci>
+										<cn type="integer">1</cn>
+									</apply>
+									<apply>
+										<eq/>
+										<ci>Lrh1</ci>
+										<cn type="integer">1</cn>
+									</apply>
+									<apply>
+										<eq/>
+										<ci>Klf4</ci>
+										<cn type="integer">1</cn>
+									</apply>
+								</apply>
+								<apply>
+									<not/>
+									<apply>
+										<or/>
+										<apply>
+											<eq/>
+											<ci>Tcf3</ci>
+											<cn type="integer">1</cn>
+										</apply>
+										<apply>
+											<eq/>
+											<ci>Gata6</ci>
+											<cn type="integer">1</cn>
+										</apply>
+									</apply>
+								</apply>
+							</apply>
+						</math>
+					</qual:functionTerm>
+					<qual:defaultTerm qual:resultLevel="0"/>
+				</qual:listOfFunctionTerms>
+			</qual:transition>
+			<qual:transition qual:id="tr_Oct4" qual:name="Interactions targeting Oct4">
+				<qual:listOfInputs>
+					<qual:input qual:qualitativeSpecies="Dnmt3b" qual:transitionEffect="none"/>
+					<qual:input qual:qualitativeSpecies="Gcnf" qual:transitionEffect="none"/>
+					<qual:input qual:qualitativeSpecies="Klf4" qual:transitionEffect="none"/>
+					<qual:input qual:qualitativeSpecies="Nanog" qual:transitionEffect="none"/>
+					<qual:input qual:qualitativeSpecies="Oct4" qual:transitionEffect="none"/>
+					<qual:input qual:qualitativeSpecies="Sox2" qual:transitionEffect="none"/>
+					<qual:input qual:qualitativeSpecies="Cdx2" qual:transitionEffect="none"/>
+					<qual:input qual:qualitativeSpecies="Klf2" qual:transitionEffect="none"/>
+					<qual:input qual:qualitativeSpecies="Lrh1" qual:transitionEffect="none"/>
+				</qual:listOfInputs>
+				<qual:listOfOutputs>
+					<qual:output qual:qualitativeSpecies="Oct4" qual:transitionEffect="assignmentLevel"/>
+				</qual:listOfOutputs>
+				<qual:listOfFunctionTerms>
+					<qual:functionTerm qual:resultLevel="1">
+						<math xmlns="http://www.w3.org/1998/Math/MathML">
+							<apply>
+								<or/>
+								<apply>
+									<and/>
+									<apply>
+										<or/>
+										<apply>
+											<and/>
+											<apply>
+												<eq/>
+												<ci>Oct4</ci>
+												<cn type="integer">1</cn>
+											</apply>
+											<apply>
+												<eq/>
+												<ci>Sox2</ci>
+												<cn type="integer">1</cn>
+											</apply>
+										</apply>
+										<apply>
+											<eq/>
+											<ci>Nanog</ci>
+											<cn type="integer">1</cn>
+										</apply>
+										<apply>
+											<eq/>
+											<ci>Klf2</ci>
+											<cn type="integer">1</cn>
+										</apply>
+										<apply>
+											<eq/>
+											<ci>Klf4</ci>
+											<cn type="integer">1</cn>
+										</apply>
+									</apply>
+									<apply>
+										<not/>
+										<apply>
+											<and/>
+											<apply>
+												<eq/>
+												<ci>Cdx2</ci>
+												<cn type="integer">1</cn>
+											</apply>
+											<apply>
+												<eq/>
+												<ci>Oct4</ci>
+												<cn type="integer">1</cn>
+											</apply>
+										</apply>
+									</apply>
+									<apply>
+										<or/>
+										<apply>
+											<eq/>
+											<ci>Dnmt3b</ci>
+											<cn type="integer">0</cn>
+										</apply>
+										<apply>
+											<eq/>
+											<ci>Klf2</ci>
+											<cn type="integer">1</cn>
+										</apply>
+									</apply>
+								</apply>
+								<apply>
+									<and/>
+									<apply>
+										<or/>
+										<apply>
+											<and/>
+											<apply>
+												<eq/>
+												<ci>Oct4</ci>
+												<cn type="integer">1</cn>
+											</apply>
+											<apply>
+												<eq/>
+												<ci>Sox2</ci>
+												<cn type="integer">1</cn>
+											</apply>
+										</apply>
+										<apply>
+											<eq/>
+											<ci>Nanog</ci>
+											<cn type="integer">1</cn>
+										</apply>
+										<apply>
+											<eq/>
+											<ci>Lrh1</ci>
+											<cn type="integer">1</cn>
+										</apply>
+										<apply>
+											<eq/>
+											<ci>Klf2</ci>
+											<cn type="integer">1</cn>
+										</apply>
+										<apply>
+											<eq/>
+											<ci>Klf4</ci>
+											<cn type="integer">1</cn>
+										</apply>
+									</apply>
+									<apply>
+										<eq/>
+										<ci>Gcnf</ci>
+										<cn type="integer">0</cn>
+									</apply>
+									<apply>
+										<and/>
+										<apply>
+											<eq/>
+											<ci>Dnmt3b</ci>
+											<cn type="integer">1</cn>
+										</apply>
+										<apply>
+											<eq/>
+											<ci>Klf2</ci>
+											<cn type="integer">0</cn>
+										</apply>
+									</apply>
+								</apply>
+							</apply>
+						</math>
+					</qual:functionTerm>
+					<qual:defaultTerm qual:resultLevel="0"/>
+				</qual:listOfFunctionTerms>
+			</qual:transition>
+			<qual:transition qual:id="tr_Smad6" qual:name="Interactions targeting Smad6">
+				<qual:listOfInputs>
+					<qual:input qual:qualitativeSpecies="Gata6" qual:transitionEffect="none"/>
+					<qual:input qual:qualitativeSpecies="Oct4" qual:transitionEffect="none"/>
+					<qual:input qual:qualitativeSpecies="SignalBMP" qual:transitionEffect="none"/>
+				</qual:listOfInputs>
+				<qual:listOfOutputs>
+					<qual:output qual:qualitativeSpecies="Smad6" qual:transitionEffect="assignmentLevel"/>
+				</qual:listOfOutputs>
+				<qual:listOfFunctionTerms>
+					<qual:functionTerm qual:resultLevel="1">
+						<math xmlns="http://www.w3.org/1998/Math/MathML">
+							<apply>
+								<and/>
+								<apply>
+									<or/>
+									<apply>
+										<eq/>
+										<ci>SignalBMP</ci>
+										<cn type="integer">1</cn>
+									</apply>
+									<apply>
+										<eq/>
+										<ci>Gata6</ci>
+										<cn type="integer">1</cn>
+									</apply>
+								</apply>
+								<apply>
+									<eq/>
+									<ci>Oct4</ci>
+									<cn type="integer">0</cn>
+								</apply>
+							</apply>
+						</math>
+					</qual:functionTerm>
+					<qual:defaultTerm qual:resultLevel="0"/>
+				</qual:listOfFunctionTerms>
+			</qual:transition>
+			<qual:transition qual:id="tr_Smad7" qual:name="Interactions targeting Smad7">
+				<qual:listOfInputs>
+					<qual:input qual:qualitativeSpecies="Esrrb" qual:transitionEffect="none"/>
+					<qual:input qual:qualitativeSpecies="Gbx2" qual:transitionEffect="none"/>
+					<qual:input qual:qualitativeSpecies="Jarid2" qual:transitionEffect="none"/>
+					<qual:input qual:qualitativeSpecies="Klf4" qual:transitionEffect="none"/>
+					<qual:input qual:qualitativeSpecies="Nanog" qual:transitionEffect="none"/>
+					<qual:input qual:qualitativeSpecies="Oct4" qual:transitionEffect="none"/>
+					<qual:input qual:qualitativeSpecies="Tbx3" qual:transitionEffect="none"/>
+				</qual:listOfInputs>
+				<qual:listOfOutputs>
+					<qual:output qual:qualitativeSpecies="Smad7" qual:transitionEffect="assignmentLevel"/>
+				</qual:listOfOutputs>
+				<qual:listOfFunctionTerms>
+					<qual:functionTerm qual:resultLevel="1">
+						<math xmlns="http://www.w3.org/1998/Math/MathML">
+							<apply>
+								<and/>
+								<apply>
+									<or/>
+									<apply>
+										<eq/>
+										<ci>Oct4</ci>
+										<cn type="integer">1</cn>
+									</apply>
+									<apply>
+										<eq/>
+										<ci>Nanog</ci>
+										<cn type="integer">1</cn>
+									</apply>
+									<apply>
+										<eq/>
+										<ci>Esrrb</ci>
+										<cn type="integer">1</cn>
+									</apply>
+									<apply>
+										<eq/>
+										<ci>Klf4</ci>
+										<cn type="integer">1</cn>
+									</apply>
+									<apply>
+										<eq/>
+										<ci>Tbx3</ci>
+										<cn type="integer">1</cn>
+									</apply>
+								</apply>
+								<apply>
+									<eq/>
+									<ci>Gbx2</ci>
+									<cn type="integer">0</cn>
+								</apply>
+								<apply>
+									<eq/>
+									<ci>Jarid2</ci>
+									<cn type="integer">0</cn>
+								</apply>
+							</apply>
+						</math>
+					</qual:functionTerm>
+					<qual:defaultTerm qual:resultLevel="0"/>
+				</qual:listOfFunctionTerms>
+			</qual:transition>
+			<qual:transition qual:id="tr_Sox2" qual:name="Interactions targeting Sox2">
+				<qual:listOfInputs>
+					<qual:input qual:qualitativeSpecies="Nanog" qual:transitionEffect="none"/>
+					<qual:input qual:qualitativeSpecies="Oct4" qual:transitionEffect="none"/>
+					<qual:input qual:qualitativeSpecies="Sox2" qual:transitionEffect="none"/>
+				</qual:listOfInputs>
+				<qual:listOfOutputs>
+					<qual:output qual:qualitativeSpecies="Sox2" qual:transitionEffect="assignmentLevel"/>
+				</qual:listOfOutputs>
+				<qual:listOfFunctionTerms>
+					<qual:functionTerm qual:resultLevel="1">
+						<math xmlns="http://www.w3.org/1998/Math/MathML">
+							<apply>
+								<or/>
+								<apply>
+									<eq/>
+									<ci>Nanog</ci>
+									<cn type="integer">1</cn>
+								</apply>
+								<apply>
+									<and/>
+									<apply>
+										<eq/>
+										<ci>Oct4</ci>
+										<cn type="integer">1</cn>
+									</apply>
+									<apply>
+										<eq/>
+										<ci>Sox2</ci>
+										<cn type="integer">1</cn>
+									</apply>
+								</apply>
+							</apply>
+						</math>
+					</qual:functionTerm>
+					<qual:defaultTerm qual:resultLevel="0"/>
+				</qual:listOfFunctionTerms>
+			</qual:transition>
+			<qual:transition qual:id="tr_Tcf3" qual:name="Interactions targeting Tcf3">
+				<qual:listOfInputs>
+					<qual:input qual:qualitativeSpecies="Nanog" qual:transitionEffect="none"/>
+					<qual:input qual:qualitativeSpecies="Oct4" qual:transitionEffect="none"/>
+					<qual:input qual:qualitativeSpecies="SignalWNT" qual:transitionEffect="none"/>
+				</qual:listOfInputs>
+				<qual:listOfOutputs>
+					<qual:output qual:qualitativeSpecies="Tcf3" qual:transitionEffect="assignmentLevel"/>
+				</qual:listOfOutputs>
+				<qual:listOfFunctionTerms>
+					<qual:functionTerm qual:resultLevel="1">
+						<math xmlns="http://www.w3.org/1998/Math/MathML">
+							<apply>
+								<and/>
+								<apply>
+									<or/>
+									<apply>
+										<eq/>
+										<ci>Nanog</ci>
+										<cn type="integer">1</cn>
+									</apply>
+									<apply>
+										<eq/>
+										<ci>Oct4</ci>
+										<cn type="integer">1</cn>
+									</apply>
+								</apply>
+								<apply>
+									<eq/>
+									<ci>SignalWNT</ci>
+									<cn type="integer">0</cn>
+								</apply>
+							</apply>
+						</math>
+					</qual:functionTerm>
+					<qual:defaultTerm qual:resultLevel="0"/>
+				</qual:listOfFunctionTerms>
+			</qual:transition>
+			<qual:transition qual:id="tr_Cdx2" qual:name="Interactions targeting Cdx2">
+				<qual:listOfInputs>
+					<qual:input qual:qualitativeSpecies="Oct4" qual:transitionEffect="none"/>
+					<qual:input qual:qualitativeSpecies="Cdx2" qual:transitionEffect="none"/>
+					<qual:input qual:qualitativeSpecies="SignalBMP" qual:transitionEffect="none"/>
+				</qual:listOfInputs>
+				<qual:listOfOutputs>
+					<qual:output qual:qualitativeSpecies="Cdx2" qual:transitionEffect="assignmentLevel"/>
+				</qual:listOfOutputs>
+				<qual:listOfFunctionTerms>
+					<qual:functionTerm qual:resultLevel="1">
+						<math xmlns="http://www.w3.org/1998/Math/MathML">
+							<apply>
+								<and/>
+								<apply>
+									<or/>
+									<apply>
+										<eq/>
+										<ci>SignalBMP</ci>
+										<cn type="integer">1</cn>
+									</apply>
+									<apply>
+										<eq/>
+										<ci>Cdx2</ci>
+										<cn type="integer">1</cn>
+									</apply>
+								</apply>
+								<apply>
+									<not/>
+									<apply>
+										<and/>
+										<apply>
+											<eq/>
+											<ci>Cdx2</ci>
+											<cn type="integer">1</cn>
+										</apply>
+										<apply>
+											<eq/>
+											<ci>Oct4</ci>
+											<cn type="integer">1</cn>
+										</apply>
+									</apply>
+								</apply>
+							</apply>
+						</math>
+					</qual:functionTerm>
+					<qual:defaultTerm qual:resultLevel="0"/>
+				</qual:listOfFunctionTerms>
+			</qual:transition>
+			<qual:transition qual:id="tr_Dusp6" qual:name="Interactions targeting Dusp6">
+				<qual:listOfInputs>
+					<qual:input qual:qualitativeSpecies="SignalERK" qual:transitionEffect="none"/>
+				</qual:listOfInputs>
+				<qual:listOfOutputs>
+					<qual:output qual:qualitativeSpecies="Dusp6" qual:transitionEffect="assignmentLevel"/>
+				</qual:listOfOutputs>
+				<qual:listOfFunctionTerms>
+					<qual:functionTerm qual:resultLevel="1">
+						<math xmlns="http://www.w3.org/1998/Math/MathML">
+							<apply>
+								<eq/>
+								<ci>SignalERK</ci>
+								<cn type="integer">1</cn>
+							</apply>
+						</math>
+					</qual:functionTerm>
+					<qual:defaultTerm qual:resultLevel="0"/>
+				</qual:listOfFunctionTerms>
+			</qual:transition>
+			<qual:transition qual:id="tr_Fgf4" qual:name="Interactions targeting Fgf4">
+				<qual:listOfInputs>
+					<qual:input qual:qualitativeSpecies="Esrrb" qual:transitionEffect="none"/>
+					<qual:input qual:qualitativeSpecies="Nanog" qual:transitionEffect="none"/>
+					<qual:input qual:qualitativeSpecies="Tcf3" qual:transitionEffect="none"/>
+					<qual:input qual:qualitativeSpecies="SignalWNT" qual:transitionEffect="none"/>
+				</qual:listOfInputs>
+				<qual:listOfOutputs>
+					<qual:output qual:qualitativeSpecies="Fgf4" qual:transitionEffect="assignmentLevel"/>
+				</qual:listOfOutputs>
+				<qual:listOfFunctionTerms>
+					<qual:functionTerm qual:resultLevel="1">
+						<math xmlns="http://www.w3.org/1998/Math/MathML">
+							<apply>
+								<or/>
+								<apply>
+									<eq/>
+									<ci>Esrrb</ci>
+									<cn type="integer">1</cn>
+								</apply>
+								<apply>
+									<eq/>
+									<ci>Nanog</ci>
+									<cn type="integer">1</cn>
+								</apply>
+								<apply>
+									<and/>
+									<apply>
+										<eq/>
+										<ci>SignalWNT</ci>
+										<cn type="integer">1</cn>
+									</apply>
+									<apply>
+										<eq/>
+										<ci>Tcf3</ci>
+										<cn type="integer">0</cn>
+									</apply>
+								</apply>
+							</apply>
+						</math>
+					</qual:functionTerm>
+					<qual:defaultTerm qual:resultLevel="0"/>
+				</qual:listOfFunctionTerms>
+			</qual:transition>
+			<qual:transition qual:id="tr_Klf2" qual:name="Interactions targeting Klf2">
+				<qual:listOfInputs>
+					<qual:input qual:qualitativeSpecies="Klf4" qual:transitionEffect="none"/>
+					<qual:input qual:qualitativeSpecies="Sox2" qual:transitionEffect="none"/>
+					<qual:input qual:qualitativeSpecies="Dusp6" qual:transitionEffect="none"/>
+					<qual:input qual:qualitativeSpecies="Mycn" qual:transitionEffect="none"/>
+					<qual:input qual:qualitativeSpecies="Pitx2" qual:transitionEffect="none"/>
+				</qual:listOfInputs>
+				<qual:listOfOutputs>
+					<qual:output qual:qualitativeSpecies="Klf2" qual:transitionEffect="assignmentLevel"/>
+				</qual:listOfOutputs>
+				<qual:listOfFunctionTerms>
+					<qual:functionTerm qual:resultLevel="1">
+						<math xmlns="http://www.w3.org/1998/Math/MathML">
+							<apply>
+								<and/>
+								<apply>
+									<or/>
+									<apply>
+										<and/>
+										<apply>
+											<eq/>
+											<ci>Sox2</ci>
+											<cn type="integer">1</cn>
+										</apply>
+										<apply>
+											<eq/>
+											<ci>Klf4</ci>
+											<cn type="integer">1</cn>
+										</apply>
+									</apply>
+									<apply>
+										<eq/>
+										<ci>Mycn</ci>
+										<cn type="integer">1</cn>
+									</apply>
+								</apply>
+								<apply>
+									<eq/>
+									<ci>Pitx2</ci>
+									<cn type="integer">0</cn>
+								</apply>
+								<apply>
+									<eq/>
+									<ci>Dusp6</ci>
+									<cn type="integer">0</cn>
+								</apply>
+							</apply>
+						</math>
+					</qual:functionTerm>
+					<qual:defaultTerm qual:resultLevel="0"/>
+				</qual:listOfFunctionTerms>
+			</qual:transition>
+			<qual:transition qual:id="tr_Lefty1" qual:name="Interactions targeting Lefty1">
+				<qual:listOfInputs>
+					<qual:input qual:qualitativeSpecies="Oct4" qual:transitionEffect="none"/>
+					<qual:input qual:qualitativeSpecies="Sox2" qual:transitionEffect="none"/>
+					<qual:input qual:qualitativeSpecies="Tcf3" qual:transitionEffect="none"/>
+					<qual:input qual:qualitativeSpecies="Mycn" qual:transitionEffect="none"/>
+					<qual:input qual:qualitativeSpecies="SignalWNT" qual:transitionEffect="none"/>
+					<qual:input qual:qualitativeSpecies="SignalACT" qual:transitionEffect="none"/>
+				</qual:listOfInputs>
+				<qual:listOfOutputs>
+					<qual:output qual:qualitativeSpecies="Lefty1" qual:transitionEffect="assignmentLevel"/>
+				</qual:listOfOutputs>
+				<qual:listOfFunctionTerms>
+					<qual:functionTerm qual:resultLevel="1">
+						<math xmlns="http://www.w3.org/1998/Math/MathML">
+							<apply>
+								<or/>
+								<apply>
+									<or/>
+									<apply>
+										<eq/>
+										<ci>SignalACT</ci>
+										<cn type="integer">1</cn>
+									</apply>
+									<apply>
+										<or/>
+										<apply>
+											<eq/>
+											<ci>SignalWNT</ci>
+											<cn type="integer">1</cn>
+										</apply>
+										<apply>
+											<eq/>
+											<ci>Tcf3</ci>
+											<cn type="integer">0</cn>
+										</apply>
+									</apply>
+								</apply>
+								<apply>
+									<eq/>
+									<ci>Mycn</ci>
+									<cn type="integer">1</cn>
+								</apply>
+								<apply>
+									<and/>
+									<apply>
+										<eq/>
+										<ci>Oct4</ci>
+										<cn type="integer">1</cn>
+									</apply>
+									<apply>
+										<eq/>
+										<ci>Sox2</ci>
+										<cn type="integer">1</cn>
+									</apply>
+								</apply>
+							</apply>
+						</math>
+					</qual:functionTerm>
+					<qual:defaultTerm qual:resultLevel="0"/>
+				</qual:listOfFunctionTerms>
+			</qual:transition>
+			<qual:transition qual:id="tr_Lrh1" qual:name="Interactions targeting Lrh1">
+				<qual:listOfInputs>
+					<qual:input qual:qualitativeSpecies="Klf4" qual:transitionEffect="none"/>
+					<qual:input qual:qualitativeSpecies="Oct4" qual:transitionEffect="none"/>
+					<qual:input qual:qualitativeSpecies="Sox2" qual:transitionEffect="none"/>
+					<qual:input qual:qualitativeSpecies="Tcf3" qual:transitionEffect="none"/>
+					<qual:input qual:qualitativeSpecies="Tbx3" qual:transitionEffect="none"/>
+				</qual:listOfInputs>
+				<qual:listOfOutputs>
+					<qual:output qual:qualitativeSpecies="Lrh1" qual:transitionEffect="assignmentLevel"/>
+				</qual:listOfOutputs>
+				<qual:listOfFunctionTerms>
+					<qual:functionTerm qual:resultLevel="1">
+						<math xmlns="http://www.w3.org/1998/Math/MathML">
+							<apply>
+								<and/>
+								<apply>
+									<or/>
+									<apply>
+										<eq/>
+										<ci>Tbx3</ci>
+										<cn type="integer">1</cn>
+									</apply>
+									<apply>
+										<eq/>
+										<ci>Klf4</ci>
+										<cn type="integer">1</cn>
+									</apply>
+									<apply>
+										<and/>
+										<apply>
+											<eq/>
+											<ci>Oct4</ci>
+											<cn type="integer">1</cn>
+										</apply>
+										<apply>
+											<eq/>
+											<ci>Sox2</ci>
+											<cn type="integer">1</cn>
+										</apply>
+									</apply>
+								</apply>
+								<apply>
+									<eq/>
+									<ci>Tcf3</ci>
+									<cn type="integer">0</cn>
+								</apply>
+							</apply>
+						</math>
+					</qual:functionTerm>
+					<qual:defaultTerm qual:resultLevel="0"/>
+				</qual:listOfFunctionTerms>
+			</qual:transition>
+			<qual:transition qual:id="tr_Mycn" qual:name="Interactions targeting Mycn">
+				<qual:listOfInputs>
+					<qual:input qual:qualitativeSpecies="Nanog" qual:transitionEffect="none"/>
+					<qual:input qual:qualitativeSpecies="Oct4" qual:transitionEffect="none"/>
+					<qual:input qual:qualitativeSpecies="Sox2" qual:transitionEffect="none"/>
+				</qual:listOfInputs>
+				<qual:listOfOutputs>
+					<qual:output qual:qualitativeSpecies="Mycn" qual:transitionEffect="assignmentLevel"/>
+				</qual:listOfOutputs>
+				<qual:listOfFunctionTerms>
+					<qual:functionTerm qual:resultLevel="1">
+						<math xmlns="http://www.w3.org/1998/Math/MathML">
+							<apply>
+								<and/>
+								<apply>
+									<and/>
+									<apply>
+										<eq/>
+										<ci>Oct4</ci>
+										<cn type="integer">1</cn>
+									</apply>
+									<apply>
+										<eq/>
+										<ci>Sox2</ci>
+										<cn type="integer">1</cn>
+									</apply>
+								</apply>
+								<apply>
+									<eq/>
+									<ci>Nanog</ci>
+									<cn type="integer">0</cn>
+								</apply>
+							</apply>
+						</math>
+					</qual:functionTerm>
+					<qual:defaultTerm qual:resultLevel="0"/>
+				</qual:listOfFunctionTerms>
+			</qual:transition>
+			<qual:transition qual:id="tr_Pitx2" qual:name="Interactions targeting Pitx2">
+				<qual:listOfInputs>
+					<qual:input qual:qualitativeSpecies="Jarid2" qual:transitionEffect="none"/>
+					<qual:input qual:qualitativeSpecies="Sox2" qual:transitionEffect="none"/>
+					<qual:input qual:qualitativeSpecies="Tcf3" qual:transitionEffect="none"/>
+					<qual:input qual:qualitativeSpecies="SignalWNT" qual:transitionEffect="none"/>
+					<qual:input qual:qualitativeSpecies="SignalACT" qual:transitionEffect="none"/>
+				</qual:listOfInputs>
+				<qual:listOfOutputs>
+					<qual:output qual:qualitativeSpecies="Pitx2" qual:transitionEffect="assignmentLevel"/>
+				</qual:listOfOutputs>
+				<qual:listOfFunctionTerms>
+					<qual:functionTerm qual:resultLevel="1">
+						<math xmlns="http://www.w3.org/1998/Math/MathML">
+							<apply>
+								<and/>
+								<apply>
+									<or/>
+									<apply>
+										<eq/>
+										<ci>SignalACT</ci>
+										<cn type="integer">1</cn>
+									</apply>
+									<apply>
+										<or/>
+										<apply>
+											<eq/>
+											<ci>SignalWNT</ci>
+											<cn type="integer">1</cn>
+										</apply>
+										<apply>
+											<eq/>
+											<ci>Tcf3</ci>
+											<cn type="integer">0</cn>
+										</apply>
+									</apply>
+								</apply>
+								<apply>
+									<eq/>
+									<ci>Sox2</ci>
+									<cn type="integer">0</cn>
+								</apply>
+								<apply>
+									<eq/>
+									<ci>Jarid2</ci>
+									<cn type="integer">0</cn>
+								</apply>
+							</apply>
+						</math>
+					</qual:functionTerm>
+					<qual:defaultTerm qual:resultLevel="0"/>
+				</qual:listOfFunctionTerms>
+			</qual:transition>
+			<qual:transition qual:id="tr_Tbx3" qual:name="Interactions targeting Tbx3">
+				<qual:listOfInputs>
+					<qual:input qual:qualitativeSpecies="Esrrb" qual:transitionEffect="none"/>
+					<qual:input qual:qualitativeSpecies="Klf4" qual:transitionEffect="none"/>
+					<qual:input qual:qualitativeSpecies="Nanog" qual:transitionEffect="none"/>
+					<qual:input qual:qualitativeSpecies="Tcf3" qual:transitionEffect="none"/>
+					<qual:input qual:qualitativeSpecies="Tbx3" qual:transitionEffect="none"/>
+					<qual:input qual:qualitativeSpecies="SignalERK" qual:transitionEffect="none"/>
+					<qual:input qual:qualitativeSpecies="SignalPI3K" qual:transitionEffect="none"/>
+				</qual:listOfInputs>
+				<qual:listOfOutputs>
+					<qual:output qual:qualitativeSpecies="Tbx3" qual:transitionEffect="assignmentLevel"/>
+				</qual:listOfOutputs>
+				<qual:listOfFunctionTerms>
+					<qual:functionTerm qual:resultLevel="1">
+						<math xmlns="http://www.w3.org/1998/Math/MathML">
+							<apply>
+								<and/>
+								<apply>
+									<or/>
+									<apply>
+										<eq/>
+										<ci>SignalPI3K</ci>
+										<cn type="integer">1</cn>
+									</apply>
+									<apply>
+										<eq/>
+										<ci>Tbx3</ci>
+										<cn type="integer">1</cn>
+									</apply>
+								</apply>
+								<apply>
+									<or/>
+									<apply>
+										<eq/>
+										<ci>Esrrb</ci>
+										<cn type="integer">1</cn>
+									</apply>
+									<apply>
+										<eq/>
+										<ci>Nanog</ci>
+										<cn type="integer">1</cn>
+									</apply>
+									<apply>
+										<eq/>
+										<ci>Klf4</ci>
+										<cn type="integer">1</cn>
+									</apply>
+								</apply>
+								<apply>
+									<eq/>
+									<ci>SignalERK</ci>
+									<cn type="integer">0</cn>
+								</apply>
+								<apply>
+									<eq/>
+									<ci>Tcf3</ci>
+									<cn type="integer">0</cn>
+								</apply>
+							</apply>
+						</math>
+					</qual:functionTerm>
+					<qual:defaultTerm qual:resultLevel="0"/>
+				</qual:listOfFunctionTerms>
+			</qual:transition>
+			<qual:transition qual:id="tr_Myc" qual:name="Interactions targeting Myc">
+				<qual:listOfInputs>
+					<qual:input qual:qualitativeSpecies="Gbx2" qual:transitionEffect="none"/>
+					<qual:input qual:qualitativeSpecies="Nanog" qual:transitionEffect="none"/>
+					<qual:input qual:qualitativeSpecies="Tcf3" qual:transitionEffect="none"/>
+					<qual:input qual:qualitativeSpecies="SignalLIF" qual:transitionEffect="none"/>
+					<qual:input qual:qualitativeSpecies="SignalWNT" qual:transitionEffect="none"/>
+					<qual:input qual:qualitativeSpecies="SignalERK" qual:transitionEffect="none"/>
+				</qual:listOfInputs>
+				<qual:listOfOutputs>
+					<qual:output qual:qualitativeSpecies="Myc" qual:transitionEffect="assignmentLevel"/>
+				</qual:listOfOutputs>
+				<qual:listOfFunctionTerms>
+					<qual:functionTerm qual:resultLevel="1">
+						<math xmlns="http://www.w3.org/1998/Math/MathML">
+							<apply>
+								<and/>
+								<apply>
+									<or/>
+									<apply>
+										<or/>
+										<apply>
+											<eq/>
+											<ci>SignalERK</ci>
+											<cn type="integer">1</cn>
+										</apply>
+										<apply>
+											<and/>
+											<apply>
+												<eq/>
+												<ci>SignalWNT</ci>
+												<cn type="integer">1</cn>
+											</apply>
+											<apply>
+												<eq/>
+												<ci>Tcf3</ci>
+												<cn type="integer">0</cn>
+											</apply>
+										</apply>
+									</apply>
+									<apply>
+										<eq/>
+										<ci>SignalLIF</ci>
+										<cn type="integer">1</cn>
+									</apply>
+									<apply>
+										<eq/>
+										<ci>Gbx2</ci>
+										<cn type="integer">1</cn>
+									</apply>
+								</apply>
+								<apply>
+									<eq/>
+									<ci>Nanog</ci>
+									<cn type="integer">0</cn>
+								</apply>
+							</apply>
+						</math>
+					</qual:functionTerm>
+					<qual:defaultTerm qual:resultLevel="0"/>
+				</qual:listOfFunctionTerms>
+			</qual:transition>
+			<qual:transition qual:id="tr_Pecam1" qual:name="Interactions targeting Pecam1">
+				<qual:listOfInputs>
+					<qual:input qual:qualitativeSpecies="EpiTFs" qual:transitionEffect="none"/>
+					<qual:input qual:qualitativeSpecies="Nanog" qual:transitionEffect="none"/>
+					<qual:input qual:qualitativeSpecies="Klf2" qual:transitionEffect="none"/>
+				</qual:listOfInputs>
+				<qual:listOfOutputs>
+					<qual:output qual:qualitativeSpecies="Pecam1" qual:transitionEffect="assignmentLevel"/>
+				</qual:listOfOutputs>
+				<qual:listOfFunctionTerms>
+					<qual:functionTerm qual:resultLevel="1">
+						<math xmlns="http://www.w3.org/1998/Math/MathML">
+							<apply>
+								<and/>
+								<apply>
+									<or/>
+									<apply>
+										<eq/>
+										<ci>Klf2</ci>
+										<cn type="integer">1</cn>
+									</apply>
+									<apply>
+										<eq/>
+										<ci>Nanog</ci>
+										<cn type="integer">1</cn>
+									</apply>
+								</apply>
+								<apply>
+									<eq/>
+									<ci>EpiTFs</ci>
+									<cn type="integer">0</cn>
+								</apply>
+							</apply>
+						</math>
+					</qual:functionTerm>
+					<qual:defaultTerm qual:resultLevel="0"/>
+				</qual:listOfFunctionTerms>
+			</qual:transition>
+			<qual:transition qual:id="tr_Rex1" qual:name="Interactions targeting Rex1">
+				<qual:listOfInputs>
+					<qual:input qual:qualitativeSpecies="EpiTFs" qual:transitionEffect="none"/>
+					<qual:input qual:qualitativeSpecies="Esrrb" qual:transitionEffect="none"/>
+					<qual:input qual:qualitativeSpecies="Nanog" qual:transitionEffect="none"/>
+					<qual:input qual:qualitativeSpecies="Sox2" qual:transitionEffect="none"/>
+					<qual:input qual:qualitativeSpecies="Klf2" qual:transitionEffect="none"/>
+					<qual:input qual:qualitativeSpecies="Lrh1" qual:transitionEffect="none"/>
+				</qual:listOfInputs>
+				<qual:listOfOutputs>
+					<qual:output qual:qualitativeSpecies="Rex1" qual:transitionEffect="assignmentLevel"/>
+				</qual:listOfOutputs>
+				<qual:listOfFunctionTerms>
+					<qual:functionTerm qual:resultLevel="1">
+						<math xmlns="http://www.w3.org/1998/Math/MathML">
+							<apply>
+								<and/>
+								<apply>
+									<or/>
+									<apply>
+										<eq/>
+										<ci>Nanog</ci>
+										<cn type="integer">1</cn>
+									</apply>
+									<apply>
+										<eq/>
+										<ci>Sox2</ci>
+										<cn type="integer">1</cn>
+									</apply>
+									<apply>
+										<eq/>
+										<ci>Lrh1</ci>
+										<cn type="integer">1</cn>
+									</apply>
+									<apply>
+										<eq/>
+										<ci>Klf2</ci>
+										<cn type="integer">1</cn>
+									</apply>
+									<apply>
+										<eq/>
+										<ci>Esrrb</ci>
+										<cn type="integer">1</cn>
+									</apply>
+								</apply>
+								<apply>
+									<eq/>
+									<ci>EpiTFs</ci>
+									<cn type="integer">0</cn>
+								</apply>
+							</apply>
+						</math>
+					</qual:functionTerm>
+					<qual:defaultTerm qual:resultLevel="0"/>
+				</qual:listOfFunctionTerms>
+			</qual:transition>
+			<qual:transition qual:id="tr_iGSK3b" qual:name="Interactions targeting iGSK3b">
+				<qual:listOfInputs>
+					<qual:input qual:qualitativeSpecies="iGSK3b" qual:transitionEffect="none"/>
+				</qual:listOfInputs>
+				<qual:listOfOutputs>
+					<qual:output qual:qualitativeSpecies="iGSK3b" qual:transitionEffect="assignmentLevel"/>
+				</qual:listOfOutputs>
+				<qual:listOfFunctionTerms>
+					<qual:functionTerm qual:resultLevel="1">
+						<math xmlns="http://www.w3.org/1998/Math/MathML">
+							<apply>
+								<eq/>
+								<ci>iGSK3b</ci>
+								<cn type="integer">1</cn>
+							</apply>
+						</math>
+					</qual:functionTerm>
+					<qual:defaultTerm qual:resultLevel="0"/>
+				</qual:listOfFunctionTerms>
+			</qual:transition>
+			<qual:transition qual:id="tr_LIF" qual:name="Interactions targeting LIF">
+				<qual:listOfInputs>
+					<qual:input qual:qualitativeSpecies="LIF" qual:transitionEffect="none"/>
+				</qual:listOfInputs>
+				<qual:listOfOutputs>
+					<qual:output qual:qualitativeSpecies="LIF" qual:transitionEffect="assignmentLevel"/>
+				</qual:listOfOutputs>
+				<qual:listOfFunctionTerms>
+					<qual:functionTerm qual:resultLevel="1">
+						<math xmlns="http://www.w3.org/1998/Math/MathML">
+							<apply>
+								<eq/>
+								<ci>LIF</ci>
+								<cn type="integer">1</cn>
+							</apply>
+						</math>
+					</qual:functionTerm>
+					<qual:defaultTerm qual:resultLevel="0"/>
+				</qual:listOfFunctionTerms>
+			</qual:transition>
+			<qual:transition qual:id="tr_bFGF" qual:name="Interactions targeting bFGF">
+				<qual:listOfInputs>
+					<qual:input qual:qualitativeSpecies="bFGF" qual:transitionEffect="none"/>
+				</qual:listOfInputs>
+				<qual:listOfOutputs>
+					<qual:output qual:qualitativeSpecies="bFGF" qual:transitionEffect="assignmentLevel"/>
+				</qual:listOfOutputs>
+				<qual:listOfFunctionTerms>
+					<qual:functionTerm qual:resultLevel="1">
+						<math xmlns="http://www.w3.org/1998/Math/MathML">
+							<apply>
+								<eq/>
+								<ci>bFGF</ci>
+								<cn type="integer">1</cn>
+							</apply>
+						</math>
+					</qual:functionTerm>
+					<qual:defaultTerm qual:resultLevel="0"/>
+				</qual:listOfFunctionTerms>
+			</qual:transition>
+			<qual:transition qual:id="tr_SignalLIF" qual:name="Interactions targeting SignalLIF">
+				<qual:listOfInputs>
+					<qual:input qual:qualitativeSpecies="LIF" qual:transitionEffect="none"/>
+				</qual:listOfInputs>
+				<qual:listOfOutputs>
+					<qual:output qual:qualitativeSpecies="SignalLIF" qual:transitionEffect="assignmentLevel"/>
+				</qual:listOfOutputs>
+				<qual:listOfFunctionTerms>
+					<qual:functionTerm qual:resultLevel="1">
+						<math xmlns="http://www.w3.org/1998/Math/MathML">
+							<apply>
+								<eq/>
+								<ci>LIF</ci>
+								<cn type="integer">1</cn>
+							</apply>
+						</math>
+					</qual:functionTerm>
+					<qual:defaultTerm qual:resultLevel="0"/>
+				</qual:listOfFunctionTerms>
+			</qual:transition>
+			<qual:transition qual:id="tr_SignalWNT" qual:name="Interactions targeting SignalWNT">
+				<qual:listOfInputs>
+					<qual:input qual:qualitativeSpecies="Tcf3" qual:transitionEffect="none"/>
+					<qual:input qual:qualitativeSpecies="Cdx2" qual:transitionEffect="none"/>
+					<qual:input qual:qualitativeSpecies="iGSK3b" qual:transitionEffect="none"/>
+					<qual:input qual:qualitativeSpecies="SignalPI3K" qual:transitionEffect="none"/>
+				</qual:listOfInputs>
+				<qual:listOfOutputs>
+					<qual:output qual:qualitativeSpecies="SignalWNT" qual:transitionEffect="assignmentLevel"/>
+				</qual:listOfOutputs>
+				<qual:listOfFunctionTerms>
+					<qual:functionTerm qual:resultLevel="1">
+						<math xmlns="http://www.w3.org/1998/Math/MathML">
+							<apply>
+								<and/>
+								<apply>
+									<or/>
+									<apply>
+										<eq/>
+										<ci>iGSK3b</ci>
+										<cn type="integer">1</cn>
+									</apply>
+									<apply>
+										<eq/>
+										<ci>SignalPI3K</ci>
+										<cn type="integer">1</cn>
+									</apply>
+								</apply>
+								<apply>
+									<eq/>
+									<ci>Cdx2</ci>
+									<cn type="integer">0</cn>
+								</apply>
+								<apply>
+									<eq/>
+									<ci>Tcf3</ci>
+									<cn type="integer">0</cn>
+								</apply>
+							</apply>
+						</math>
+					</qual:functionTerm>
+					<qual:defaultTerm qual:resultLevel="0"/>
+				</qual:listOfFunctionTerms>
+			</qual:transition>
+			<qual:transition qual:id="tr_SignalBMP" qual:name="Interactions targeting SignalBMP">
+				<qual:listOfInputs>
+					<qual:input qual:qualitativeSpecies="Bmp4" qual:transitionEffect="none"/>
+					<qual:input qual:qualitativeSpecies="Smad6" qual:transitionEffect="none"/>
+					<qual:input qual:qualitativeSpecies="Smad7" qual:transitionEffect="none"/>
+				</qual:listOfInputs>
+				<qual:listOfOutputs>
+					<qual:output qual:qualitativeSpecies="SignalBMP" qual:transitionEffect="assignmentLevel"/>
+				</qual:listOfOutputs>
+				<qual:listOfFunctionTerms>
+					<qual:functionTerm qual:resultLevel="1">
+						<math xmlns="http://www.w3.org/1998/Math/MathML">
+							<apply>
+								<and/>
+								<apply>
+									<eq/>
+									<ci>Bmp4</ci>
+									<cn type="integer">1</cn>
+								</apply>
+								<apply>
+									<eq/>
+									<ci>Smad6</ci>
+									<cn type="integer">0</cn>
+								</apply>
+								<apply>
+									<eq/>
+									<ci>Smad7</ci>
+									<cn type="integer">0</cn>
+								</apply>
+							</apply>
+						</math>
+					</qual:functionTerm>
+					<qual:defaultTerm qual:resultLevel="0"/>
+				</qual:listOfFunctionTerms>
+			</qual:transition>
+			<qual:transition qual:id="tr_SignalFGF" qual:name="Interactions targeting SignalFGF">
+				<qual:listOfInputs>
+					<qual:input qual:qualitativeSpecies="Fgfr2" qual:transitionEffect="none"/>
+					<qual:input qual:qualitativeSpecies="Fgf4" qual:transitionEffect="none"/>
+					<qual:input qual:qualitativeSpecies="bFGF" qual:transitionEffect="none"/>
+				</qual:listOfInputs>
+				<qual:listOfOutputs>
+					<qual:output qual:qualitativeSpecies="SignalFGF" qual:transitionEffect="assignmentLevel"/>
+				</qual:listOfOutputs>
+				<qual:listOfFunctionTerms>
+					<qual:functionTerm qual:resultLevel="1">
+						<math xmlns="http://www.w3.org/1998/Math/MathML">
+							<apply>
+								<and/>
+								<apply>
+									<eq/>
+									<ci>Fgfr2</ci>
+									<cn type="integer">1</cn>
+								</apply>
+								<apply>
+									<or/>
+									<apply>
+										<eq/>
+										<ci>Fgf4</ci>
+										<cn type="integer">1</cn>
+									</apply>
+									<apply>
+										<eq/>
+										<ci>bFGF</ci>
+										<cn type="integer">1</cn>
+									</apply>
+								</apply>
+							</apply>
+						</math>
+					</qual:functionTerm>
+					<qual:defaultTerm qual:resultLevel="0"/>
+				</qual:listOfFunctionTerms>
+			</qual:transition>
+			<qual:transition qual:id="tr_SignalERK" qual:name="Interactions targeting SignalERK">
+				<qual:listOfInputs>
+					<qual:input qual:qualitativeSpecies="SignalBMP" qual:transitionEffect="none"/>
+					<qual:input qual:qualitativeSpecies="SignalFGF" qual:transitionEffect="none"/>
+				</qual:listOfInputs>
+				<qual:listOfOutputs>
+					<qual:output qual:qualitativeSpecies="SignalERK" qual:transitionEffect="assignmentLevel"/>
+				</qual:listOfOutputs>
+				<qual:listOfFunctionTerms>
+					<qual:functionTerm qual:resultLevel="1">
+						<math xmlns="http://www.w3.org/1998/Math/MathML">
+							<apply>
+								<and/>
+								<apply>
+									<eq/>
+									<ci>SignalFGF</ci>
+									<cn type="integer">1</cn>
+								</apply>
+								<apply>
+									<eq/>
+									<ci>SignalBMP</ci>
+									<cn type="integer">0</cn>
+								</apply>
+							</apply>
+						</math>
+					</qual:functionTerm>
+					<qual:defaultTerm qual:resultLevel="0"/>
+				</qual:listOfFunctionTerms>
+			</qual:transition>
+			<qual:transition qual:id="tr_SignalACT" qual:name="Interactions targeting SignalACT">
+				<qual:listOfInputs>
+					<qual:input qual:qualitativeSpecies="ActivinA" qual:transitionEffect="none"/>
+					<qual:input qual:qualitativeSpecies="Smad7" qual:transitionEffect="none"/>
+				</qual:listOfInputs>
+				<qual:listOfOutputs>
+					<qual:output qual:qualitativeSpecies="SignalACT" qual:transitionEffect="assignmentLevel"/>
+				</qual:listOfOutputs>
+				<qual:listOfFunctionTerms>
+					<qual:functionTerm qual:resultLevel="1">
+						<math xmlns="http://www.w3.org/1998/Math/MathML">
+							<apply>
+								<and/>
+								<apply>
+									<eq/>
+									<ci>ActivinA</ci>
+									<cn type="integer">1</cn>
+								</apply>
+								<apply>
+									<eq/>
+									<ci>Smad7</ci>
+									<cn type="integer">0</cn>
+								</apply>
+							</apply>
+						</math>
+					</qual:functionTerm>
+					<qual:defaultTerm qual:resultLevel="0"/>
+				</qual:listOfFunctionTerms>
+			</qual:transition>
+			<qual:transition qual:id="tr_SignalPI3K" qual:name="Interactions targeting SignalPI3K">
+				<qual:listOfInputs>
+					<qual:input qual:qualitativeSpecies="SignalLIF" qual:transitionEffect="none"/>
+					<qual:input qual:qualitativeSpecies="SignalFGF" qual:transitionEffect="none"/>
+				</qual:listOfInputs>
+				<qual:listOfOutputs>
+					<qual:output qual:qualitativeSpecies="SignalPI3K" qual:transitionEffect="assignmentLevel"/>
+				</qual:listOfOutputs>
+				<qual:listOfFunctionTerms>
+					<qual:functionTerm qual:resultLevel="1">
+						<math xmlns="http://www.w3.org/1998/Math/MathML">
+							<apply>
+								<and/>
+								<apply>
+									<eq/>
+									<ci>SignalLIF</ci>
+									<cn type="integer">1</cn>
+								</apply>
+								<apply>
+									<eq/>
+									<ci>SignalFGF</ci>
+									<cn type="integer">1</cn>
+								</apply>
+							</apply>
+						</math>
+					</qual:functionTerm>
+					<qual:defaultTerm qual:resultLevel="0"/>
+				</qual:listOfFunctionTerms>
+			</qual:transition>
+		</qual:listOfTransitions>
+	</model>
+</sbml>

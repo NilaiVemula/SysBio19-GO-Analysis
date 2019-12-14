@@ -1,0 +1,38 @@
+---
+title: "R Notebook"
+output: html_notebook
+---
+
+```{r}
+library(tidyverse)
+```
+
+```{r}
+gene_list <- read_csv("data/gene_list.csv", 
+    col_types = cols(Attractor_State = col_character()))
+```
+
+```{r}
+genelist <- gene_list %>% rename(ensemblid = Ensembl_ID)
+```
+
+```{r}
+source("scripts/FunctionalEnrichmentAnalysis.R")
+
+output_folder <- "outputs/old_enrichment/"
+
+attractor_list <- unique(genelist$Attractor_State)
+
+for(key_attractor
+    in attractor_list){
+  
+  attractor_genes_df <- genelist[genelist$Attractor_State == key_attractor, ]
+  
+  f <- geneEnrichmentAnalysis(
+    output_folder = output_folder,
+    gene_list = attractor_genes_df,
+    title = paste0("attractor_", key_attractor)
+  )
+}
+```
+

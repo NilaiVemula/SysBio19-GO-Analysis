@@ -1,0 +1,5 @@
+"","ID","Description","GeneRatio","BgRatio","pvalue","p.adjust","qvalue","geneID","Count","url"
+"mmu04350","mmu04350","TGF-beta signaling pathway","3/4","95/8657",5.08119743183613e-06,2.03247897273445e-05,1.0697257751234e-05,"17130/13590/18741",3,"=HYPERLINK(""http://www.kegg.jp/kegg-bin/show_pathway?mmu04350/17130/13590/18741"")"
+"mmu00270","mmu00270","Cysteine and methionine metabolism","1/4","52/8657",0.023815271719098,0.0476305434381961,0.0250687070727348,"13436",1,"=HYPERLINK(""http://www.kegg.jp/kegg-bin/show_pathway?mmu00270/13436"")"
+"mmu04550","mmu04550","Signaling pathways regulating pluripotency of stem cells","1/4","138/8657",0.0622654324215622,0.083020576562083,0.0436950402958331,"13590",1,"=HYPERLINK(""http://www.kegg.jp/kegg-bin/show_pathway?mmu04550/13590"")"
+"mmu05206","mmu05206","MicroRNAs in cancer","1/4","303/8657",0.132843880347334,0.132843880347334,0.0699178317617547,"13436",1,"=HYPERLINK(""http://www.kegg.jp/kegg-bin/show_pathway?mmu05206/13436"")"

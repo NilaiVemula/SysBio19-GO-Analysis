@@ -1,0 +1,12 @@
+"","ID","Description","GeneRatio","BgRatio","pvalue","p.adjust","qvalue","geneID","Count"
+"GO:0008327","GO:0008327","methyl-CpG binding","1/2","21/20775",0.00202068748112316,0.0141062810663352,NA,"Cdx2",1
+"GO:0004879","GO:0004879","nuclear receptor activity","1/2","40/20775",0.00384716756354597,0.0141062810663352,NA,"Nr6a1",1
+"GO:0098531","GO:0098531","transcription factor activity, direct ligand regulated sequence-specific DNA binding","1/2","40/20775",0.00384716756354597,0.0141062810663352,NA,"Nr6a1",1
+"GO:0003707","GO:0003707","steroid hormone receptor activity","1/2","55/20775",0.00528794381850783,0.0145418455008965,NA,"Nr6a1",1
+"GO:0000980","GO:0000980","RNA polymerase II distal enhancer sequence-specific DNA binding","1/2","94/20775",0.00902908233551702,0.0198639811381375,NA,"Cdx2",1
+"GO:0001158","GO:0001158","enhancer sequence-specific DNA binding","1/2","121/20775",0.0116149722930766,0.0199060941859482,NA,"Cdx2",1
+"GO:0035326","GO:0035326","enhancer binding","1/2","132/20775",0.012667514481967,0.0199060941859482,NA,"Cdx2",1
+"GO:0003714","GO:0003714","transcription corepressor activity","1/2","190/20775",0.0182080094795902,0.0250360130344366,NA,"Cdx2",1
+"GO:0001227","GO:0001227","DNA-binding transcription repressor activity, RNA polymerase II-specific","1/2","237/20775",0.022686286210999,0.0277276831467766,NA,"Cdx2",1
+"GO:0001228","GO:0001228","DNA-binding transcription activator activity, RNA polymerase II-specific","1/2","436/20775",0.0415340706939863,0.0435123280199484,NA,"Nr6a1",1
+"GO:0003712","GO:0003712","transcription coregulator activity","1/2","457/20775",0.0435123280199484,0.0435123280199484,NA,"Cdx2",1

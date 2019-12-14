@@ -1,0 +1,7 @@
+PvalueCutoff:  0.05 
+ pAdjustMethod:  BH 
+ qvalueCutoff:  0.05 
+ Organism:  Mus musculus 
+ Ontology: GO CC 
+ Gene:  ENSMUSG00000024406 ENSMUSG00000074637 ENSMUSG00000012396 
+ Gene2symbol:  Pou5f1 Sox2 Nanog 

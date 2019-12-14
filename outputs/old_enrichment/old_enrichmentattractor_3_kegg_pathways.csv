@@ -1,0 +1,2 @@
+"","ID","Description","GeneRatio","BgRatio","pvalue","p.adjust","qvalue","geneID","Count","url"
+"mmu05226","mmu05226","Gastric cancer","1/1","150/8657",0.0173270185976665,0.0173270185976665,NA,"12591",1,"=HYPERLINK(""http://www.kegg.jp/kegg-bin/show_pathway?mmu05226/12591"")"

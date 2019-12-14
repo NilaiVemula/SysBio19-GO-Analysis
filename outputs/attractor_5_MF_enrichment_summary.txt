@@ -1,0 +1,7 @@
+PvalueCutoff:  0.05 
+ pAdjustMethod:  BH 
+ qvalueCutoff:  0.05 
+ Organism:  Mus musculus 
+ Ontology: GO MF 
+ Gene:  ENSMUSG00000030849 ENSMUSG00000063972 ENSMUSG00000029646 ENSMUSG00000038793 ENSMUSG00000028023 
+ Gene2symbol:  Fgfr2 Nr6a1 Cdx2 Lefty1 Pitx2 

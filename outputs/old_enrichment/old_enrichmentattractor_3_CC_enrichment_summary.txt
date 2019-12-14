@@ -1,0 +1,7 @@
+PvalueCutoff:  0.05 
+ pAdjustMethod:  BH 
+ qvalueCutoff:  0.05 
+ Organism:  Mus musculus 
+ Ontology: GO CC 
+ Gene:  ENSMUSG00000029646 ENSMUSG00000063972 
+ Gene2symbol:  Cdx2 Nr6a1 

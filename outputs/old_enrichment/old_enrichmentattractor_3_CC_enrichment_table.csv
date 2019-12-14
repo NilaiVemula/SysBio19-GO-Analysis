@@ -1,0 +1,5 @@
+"","ID","Description","GeneRatio","BgRatio","pvalue","p.adjust","qvalue","geneID","Count"
+"GO:0017053","GO:0017053","transcriptional repressor complex","1/2","83/21319",0.00777150613449762,0.02428040360163,NA,"Cdx2",1
+"GO:0000794","GO:0000794","condensed nuclear chromosome","1/2","143/21319",0.0133705835930498,0.02428040360163,NA,"Cdx2",1
+"GO:0000793","GO:0000793","condensed chromosome","1/2","195/21319",0.0182103027012225,0.02428040360163,NA,"Cdx2",1
+"GO:0005667","GO:0005667","transcription factor complex","1/2","423/21319",0.0392901408511693,0.0392901408511693,NA,"Nr6a1",1

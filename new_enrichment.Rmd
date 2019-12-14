@@ -1,0 +1,77 @@
+---
+title: "R Notebook"
+output: html_notebook
+---
+
+```{r}
+library(biomaRt)
+library(tidyverse)
+library(org.Mm.eg.db)
+```
+
+
+```{r}
+genelist<- read_csv("data/genelist_new.csv", 
+    col_types = cols(Attractor = col_character())) %>% 
+  dplyr::filter(!str_detect(Gene, "^Signal")) %>% 
+  dplyr::filter(!(Gene == "LIF")) %>% 
+  dplyr::filter(!(Gene == "iGSK3b")) %>% 
+  dplyr::filter(!(Gene == "bFGF")) %>% 
+  dplyr::filter(!(Gene == "EpiTFs")) %>% 
+  mutate(Gene=replace(Gene, Gene=="Oct4", "Pou5f1")) %>% 
+  mutate(Gene=replace(Gene, Gene=="Gcnf", "Nr6a1"))
+
+```
+
+
+
+
+
+
+
+```{r}
+ensemble_ids <- mapIds(org.Mm.eg.db, genelist$Gene, "ENSEMBL","SYMBOL")
+#ensemble_ids
+```
+
+
+
+```{r}
+ensemble <- data.frame(Gene = names(ensemble_ids), ensemble_id = ensemble_ids, stringsAsFactors = FALSE )
+```
+
+
+
+
+```{r}
+ensemble %>% filter(is.na(ensemble_id)) %>% unique()
+```
+
+```{r}
+ensemble <- ensemble %>% filter(!is.na(ensemble_id))
+genelist <- genelist %>% full_join(ensemble, by = "Gene") %>% dplyr::select(ensemblid = ensemble_id, Attractor) %>% drop_na() %>% unique()
+
+genelist
+```
+
+```{r}
+source("scripts/FunctionalEnrichmentAnalysis.R")
+
+output_folder <- "outputs/"
+
+attractor_list <- unique(genelist$Attractor)
+
+for(key_attractor
+    in attractor_list){
+  
+  attractor_genes_df <- genelist[genelist$Attractor == key_attractor, ]
+  
+  f <- geneEnrichmentAnalysis(
+    output_folder = output_folder,
+    gene_list = attractor_genes_df,
+    title = paste0("attractor_", key_attractor)
+  )
+}
+
+```
+
